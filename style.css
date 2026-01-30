@@ -187,3 +187,52 @@ footer {
     font-size: 18px;
   }
 }
+
+.projects-panel {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px;
+  background: #020617;
+  border-radius: 30px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+  position: relative;
+}
+
+.projects-panel h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects-panel::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 30px;
+  background: linear-gradient(120deg, #38bdf8, transparent, #38bdf8);
+  opacity: 0.18;
+  z-index: -1;
+}
+
+.card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .projects-panel {
+    padding: 40px 25px;
+  }
+}
