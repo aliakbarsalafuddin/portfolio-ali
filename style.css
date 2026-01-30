@@ -328,3 +328,30 @@ footer {
   transform: translateY(-8px);
   box-shadow: 0 15px 30px rgba(56,189,248,0.3);
 }
+
+.contact-card {
+  background: #020617;
+  padding: 22px 32px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.3s;
+}
+
+.contact-card i {
+  font-size: 22px;
+  color: #38bdf8;
+}
+
+.contact-card span {
+  font-weight: 500;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(56,189,248,0.3);
+}
