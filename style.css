@@ -66,6 +66,8 @@ nav a:hover {
 
 section {
   padding: 80px 10%;
+  position: relative;
+  z-index: 1;
 }
 
 .project-grid {
